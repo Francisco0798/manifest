@@ -733,6 +733,6 @@
 
   <!-- Custom repos -->
   <include name="snippets/remove.xml" />
-  <include name="snippets/tridentOS.xml" />
+  <include name="snippets/trident.xml" />
 
 </manifest>
