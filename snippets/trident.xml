@@ -59,7 +59,9 @@
   <project path="system/vold" name="platform_system_vold" groups="pdk" remote="tridente" />
   <project path="vendor/aosp" name="platform_vendor_aosp" remote="tridente" />
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="tridente" />
-
+  <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="tridente" />
+  <project path="vendor_gapps" name="vendor_gapps" remote="tridente" />
+  
   <!-- HardWare QCOM -->
   <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="los" />
 <!--  <project path="hardware/qcom/audio-caf/apq8084" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="los" revision="lineage-16.0-caf-8084" /> -->
