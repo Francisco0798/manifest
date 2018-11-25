@@ -60,7 +60,7 @@
   <project path="vendor/aosp" name="platform_vendor_aosp" remote="tridente" />
   <project path="vendor/codeaurora/telephony" name="platform_vendor_codeaurora_telephony" remote="tridente" />
   <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="tridente" />
-  <project path="vendor_gapps" name="vendor_gapps" remote="tridente" />
+  <project path="vendor/gapps" name="vendor_gapps" remote="trilab" clone-depth="1" />
   
   <!-- HardWare QCOM -->
   <project path="hardware/qcom/audio/default" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="los" />
