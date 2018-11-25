@@ -1,5 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  
+  <remote name="TridentOS-gitlab"
+          fetch="https://gitlab.com/TridentOS"
+          revision="pie" />
+
+  <remote  name="TridentOS"
+           fetch="https://github.com/TridentOS"
+           revision="9.x" />
+
+  <remote  name="trident-devices"
+           fetch="https://github.com/TridentOS-devices"
+           revision="9.x" />
+
+  <remote  name="los"
+           fetch="https://github.com/LineageOS"
+           revision="refs/heads/lineage-16.0" />
 
   <project path="manifest" name="manifest" remote="tridentOS" />
   <project path="art" name="platform_art" groups="pdk" remote="tridentOS" />
