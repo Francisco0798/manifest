@@ -15,6 +15,10 @@
   <remote  name="trident-devices"
            fetch="https://github.com/TridentOS-devices"
            revision="refs/heads/9.x" />
+  
+  <remote name="trilab"
+          fetch="https://gitlab.com/TridentOS"
+          revision="pie" />
 
   <remote  name="los"
            fetch="https://github.com/LineageOS"
