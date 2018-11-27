@@ -5,7 +5,7 @@
   <project path="art" name="platform_art" groups="pdk" remote="tridente" />
   <project path="bionic" name="platform_bionic" groups="pdk" remote="tridente" />
   <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="tridente" />
-  <project path="build/make" name="platform_build" groups="pdk" remote="tridente" >
+  <project path="build/make" name="build" groups="pdk" remote="tridente" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
