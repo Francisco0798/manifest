@@ -12,7 +12,7 @@
            fetch="https://github.com/TridentOS"
            revision="9.x" />
   
-  <remote  name="tridente"
+  <remote  name="tridente2"
            fetch="https://github.com/TridentOS"
            revision="pie" />
            
