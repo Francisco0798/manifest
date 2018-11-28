@@ -11,7 +11,11 @@
   <remote  name="tridente"
            fetch="https://github.com/TridentOS"
            revision="9.x" />
-
+  
+  <remote  name="tridente"
+           fetch="https://github.com/TridentOS"
+           revision="pie" />
+           
   <remote  name="trident-devices"
            fetch="https://github.com/TridentOS-devices"
            revision="9.x" />
